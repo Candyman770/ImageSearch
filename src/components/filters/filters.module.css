@@ -1,0 +1,36 @@
+.Filters{
+	margin-top:20px;
+}
+.Filters ul{
+	display:flex;
+	list-style: none;
+	justify-content: center;
+}
+.Filters ul > *{
+	flex-basis:90px;
+	margin: 0 10px 0 10px;
+	background-color:#000033;
+	font-family:'Josefin Sans', cursive;
+	border:1px black solid;
+	border-radius:3px;
+	text-align: center;
+	display:flex;
+}
+.Filters a{
+	flex-basis:100%;
+	padding:5px;
+	text-decoration:none;
+	color:white;
+}
+.Filters a:disabled{
+	pointer-events:none;
+}
+@media(max-width: 700px){
+	.Filters ul{
+		flex-flow: column
+	}
+	.Filters ul > *{
+		flex-basis:auto;
+		margin:5px 0 5px 0;
+	}
+}

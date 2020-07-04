@@ -1,0 +1,21 @@
+.PhotoContainer{
+	margin-top:50px;
+	font-family:'Josefin Sans', cursive;
+	text-align:center;
+	color:#000033;
+}
+.PhotoContainer h2{
+	font-size:180%;
+	font-weight:none;
+}
+.PhotoContainer ul{
+	display:flex;
+	list-style:none;
+	flex-wrap:wrap;
+	justify-content: center
+}
+.PhotoContainer div{
+	max-width:1000px;
+	margin:0 auto;
+	//border:1px solid red;
+}
